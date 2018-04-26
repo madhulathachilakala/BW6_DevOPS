@@ -1,0 +1,134 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/v1/customers" : {
+      "post" : {
+        "description" : "",
+        "operationId" : "post-v1-customers",
+        "consumes" : [ "application/json", "application/xml" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "body",
+          "in" : "body",
+          "description" : "",
+          "schema" : {
+            "$ref" : "#/definitions/CustomerRequestMsg"
+          },
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "CustomerContacts" : {
+      "type" : "object",
+      "properties" : {
+        "PrimaryPhone" : {
+          "type" : "string"
+        },
+        "PrimaryPhoneExtension" : {
+          "type" : "string"
+        },
+        "PrimaryPhoneType" : {
+          "type" : "string"
+        },
+        "SecondaryPhone" : {
+          "type" : "string"
+        },
+        "SecondaryPhoneExtension" : {
+          "type" : "string"
+        },
+        "SecondaryPhoneType" : {
+          "type" : "string"
+        },
+        "EMailID" : {
+          "type" : "string"
+        },
+        "PreferredContact" : {
+          "type" : "string"
+        }
+      }
+    },
+    "Metadata" : {
+      "type" : "object",
+      "required" : [ "CorrelationID", "SourceSystem" ],
+      "properties" : {
+        "SourceSystem" : {
+          "type" : "string"
+        },
+        "CorrelationID" : {
+          "type" : "string"
+        }
+      }
+    },
+    "CustomerRequestMsg" : {
+      "type" : "object",
+      "required" : [ "Metadata" ],
+      "properties" : {
+        "CustomerDetails" : {
+          "$ref" : "#/definitions/CustomerDetails"
+        },
+        "Metadata" : {
+          "$ref" : "#/definitions/Metadata"
+        }
+      }
+    },
+    "CustomerDetails" : {
+      "type" : "object",
+      "properties" : {
+        "FirstName" : {
+          "type" : "string"
+        },
+        "LastName" : {
+          "type" : "string"
+        },
+        "BirthDate" : {
+          "type" : "string",
+          "format" : "date"
+        },
+        "CustomerContacts" : {
+          "$ref" : "#/definitions/CustomerContacts"
+        },
+        "CustomerAddress" : {
+          "$ref" : "#/definitions/CustomerAddress"
+        }
+      }
+    },
+    "CustomerAddress" : {
+      "type" : "object",
+      "properties" : {
+        "AddressLine1" : {
+          "type" : "string"
+        },
+        "AddressLine2" : {
+          "type" : "string"
+        },
+        "State" : {
+          "type" : "string"
+        },
+        "City" : {
+          "type" : "string"
+        },
+        "Country" : {
+          "type" : "string"
+        },
+        "ZipCode" : {
+          "type" : "integer"
+        }
+      }
+    }
+  }
+}

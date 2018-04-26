@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="http://www.cts.com/cts/esb/xsd/Customer01/POST/001" 
+xmlns:ns0="http://www.cts.com/cts/Enterprise/CRM/TypeDefintions/V1_2" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" 
+elementFormDefault="qualified" 
+targetNamespace="http://www.cts.com/cts/esb/xsd/Customer01/POST/001">
+	
+	
+	<xs:element name="CustomerRequestMsg">
+		<xs:complexType>
+			<xs:sequence>	
+	    		<xs:element minOccurs="0" name="CustomerDetails" type="CustomerDetailsType"/>
+				<xs:element name="Metadata" type="MetadataType"/>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>	
+
+	<xs:complexType name="MetadataType">
+		<xs:sequence>
+			<xs:element name="SourceSystem" type="xs:string"/>
+			<xs:element name="CorrelationID" type="xs:string"/>						
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CustomerDetailsType">
+		<xs:sequence>
+			<xs:element minOccurs="0" name="FirstName" type="xs:string"/>
+			<xs:element minOccurs="0" name="LastName" type="xs:string"/>
+			<xs:element minOccurs="0" name="BirthDate" type="xs:date"/>
+			<xs:element minOccurs="0" name="CustomerContacts" type="ContactType"/>
+			<xs:element minOccurs="0" name="CustomerAddress" type="AddressType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContactType">
+		<xs:sequence>
+			<xs:element minOccurs="0" name="PrimaryPhone" type="xs:string"/>
+			<xs:element minOccurs="0" name="PrimaryPhoneExtension" type="xs:string"/>
+			<xs:element minOccurs="0" name="PrimaryPhoneType" type="xs:string"/>
+			<xs:element minOccurs="0" name="SecondaryPhone" type="xs:string"/>
+			<xs:element minOccurs="0" name="SecondaryPhoneExtension" type="xs:string"/>
+			<xs:element minOccurs="0" name="SecondaryPhoneType" type="xs:string"/>
+			<xs:element minOccurs="0" name="EMailID" type="xs:string"/>
+			<xs:element minOccurs="0" name="PreferredContact" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element minOccurs="0" name="AddressLine1" type="xs:string"/>
+			<xs:element minOccurs="0" name="AddressLine2" type="xs:string"/>
+			<xs:element minOccurs="0" name="State" type="xs:string"/>			
+			<xs:element minOccurs="0" name="City" type="xs:string"/>
+			<xs:element minOccurs="0" name="Country" type="xs:string"/>
+			<xs:element minOccurs="0" name="ZipCode" type="xs:int"/>
+		</xs:sequence>
+	</xs:complexType>	
+</xs:schema>

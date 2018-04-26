@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:property="http://ns.tibco.com/bw/property" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_KhVnQD59EeiQWYTLgChJPw" targetNamespace="http://tns.tibco.com/bw/composite/CICDDemo" name="CICDDemo" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_HQplcEQWEeig28DE8ye6Ug" name="v1-customers" promote="ComponentCustomer/v1-customers">
+    <sca:interface.wsdl xmi:id="_HQw6MEQWEeig28DE8ye6Ug" interface="http://xmlns.example.com/20180419171039PLT#wsdl.interface(v1-customers)" scaext:wsdlLocation="../Processes/cicddemo/Customer.bwp"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_HRZzYEQWEeig28DE8ye6Ug" name="RestService" path="/v1/customers" docBasePath="http://localhost:7777/CICDDemo" docResourcePath="Customer" basePath="/" connector="crmsalesevent.Customer" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/cicddemo.Customer-Customer.json">
+      <operation xmi:id="_HRw_wEQWEeig28DE8ye6Ug" operationName="post" nickname="post-v1-customers" httpMethod="POST" responseStyle="element" requestStyle="element">
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+        <clientRequestFormat>xml</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="_HSOSwEQWEeig28DE8ye6Ug"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_HRw_wUQWEeig28DE8ye6Ug" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_K0GyQD59EeiQWYTLgChJPw" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0OuED59EeiQWYTLgChJPw" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0S_gD59EeiQWYTLgChJPw" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0XQ8D59EeiQWYTLgChJPw" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0aUQD59EeiQWYTLgChJPw" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0d-oD59EeiQWYTLgChJPw" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0i3ID59EeiQWYTLgChJPw" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0nvoD59EeiQWYTLgChJPw" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_K0sBED59EeiQWYTLgChJPw" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_qILN8D6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/JMSUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_z5ORQD6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/JNDIUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_z_3EwD6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/JMSUser" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ErTUD6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/JNDIUser" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0I4d4D6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/JMSPassword" type="property:password" scaext:simpleValue="#!gI3vdJNH9frH6Q+9dsPe6A==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0M2-8D6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/JNDIPassword" type="property:password" scaext:simpleValue="#!gyQUj9V1qLcGDvbwTtpTfw==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_9l38wD6EEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/QueueConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_BlEWMD6FEeiQWYTLgChJPw" name="/CRMSalesEvent/JMSConnection/TopicConnectionFactory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_WEtPoEQWEeig28DE8ye6Ug" name="/CRMSalesEvent/HTTPConnection/Port" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_HQcxIEQWEeig28DE8ye6Ug" name="ComponentCustomer" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_HQcxIUQWEeig28DE8ye6Ug" processName="cicddemo.Customer"/>
+    <sca:service xmi:id="_HQkF4EQWEeig28DE8ye6Ug" name="v1-customers">
+      <sca:interface.wsdl xmi:id="_HQlUAEQWEeig28DE8ye6Ug" interface="http://xmlns.example.com/20180419171039PLT#wsdl.interface(v1-customers)" scaext:wsdlLocation="../Processes/cicddemo/Customer.bwp"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>
