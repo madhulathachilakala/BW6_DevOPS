@@ -1,0 +1,485 @@
+!SESSION 2018-05-03 22:00:54.070 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication execute C:/GITWorkspace/CICDDemo/output/ESB/Deployment/DEV/6.X/CICDDemo/1.0.0/Deployment/CICDDemo_1.0.0_1.bat
+Command-line arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication -ws win32 -data C:/GITWorkspace/CICDDemo/output/workspace execute C:/GITWorkspace/CICDDemo/output/ESB/Deployment/DEV/6.X/CICDDemo/1.0.0/Deployment/CICDDemo_1.0.0_1.bat
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-05-03 22:00:55.289
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-05-03 22:00:55.290
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.658
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.664
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.667
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.667
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.669
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.670
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.670
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.683
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.684
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.684
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:00:55.686
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2018-05-03 22:00:59.537
+!MESSAGE ".com.tibco.bw.rad/BWApplication.launch" file is synchronized.
+
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2018-05-03 22:00:59.629
+!MESSAGE ".com.tibco.bw.rad/runtime.target" file is synchronized.
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:00:59.998
+!MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.020
+!MESSAGE Constraint "com.tibco.bw.sharedresource.http.design.com.tibco.amf.design.sr.transport.http.ssl.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.054
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.055
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.056
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.056
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.060
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.062
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.062
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.067
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:00.067
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
+
+!ENTRY com.tibco.xpd.resources 4 0 2018-05-03 22:01:02.678
+!MESSAGE Indexer global.references.index failed for file '/CICDDemo/Schemas/RESTSchema.xsd'
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.amf.tools.composite.resources.internal.refs.FindReferencesIndexer.getIndexItems(FindReferencesIndexer.java:128)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.o00000(IndexerServiceImpl.java:743)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.initialiseIndexer(IndexerServiceImpl.java:488)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:442)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.tibco.xpd.resources 4 0 2018-05-03 22:01:02.723
+!MESSAGE Indexer global.references.index failed for file '/CICDDemo/Schemas/Customer01.xsd'
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.amf.tools.composite.resources.internal.refs.FindReferencesIndexer.getIndexItems(FindReferencesIndexer.java:128)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.o00000(IndexerServiceImpl.java:743)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.initialiseIndexer(IndexerServiceImpl.java:488)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:442)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.tibco.xpd.resources 4 0 2018-05-03 22:01:02.817
+!MESSAGE Indexer global.references.index failed for file '/CICDDemo/Resources/crmsalesevent/JNDIConfiguration.jndiConfigResource'
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.amf.tools.composite.resources.internal.refs.FindReferencesIndexer.getIndexItems(FindReferencesIndexer.java:128)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.o00000(IndexerServiceImpl.java:743)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.initialiseIndexer(IndexerServiceImpl.java:488)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:442)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.tibco.xpd.resources 4 0 2018-05-03 22:01:03.140
+!MESSAGE Indexer global.references.index failed for file '/CICDDemo/Resources/crmsalesevent/JMSConnectionResource.jmsConnResource'
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.amf.tools.composite.resources.internal.refs.FindReferencesIndexer.getIndexItems(FindReferencesIndexer.java:128)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.o00000(IndexerServiceImpl.java:743)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.initialiseIndexer(IndexerServiceImpl.java:488)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:442)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.tibco.xpd.resources 4 0 2018-05-03 22:01:03.153
+!MESSAGE Indexer global.references.index failed for file '/CICDDemo/Resources/crmsalesevent/Customer.httpConnResource'
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.amf.tools.composite.resources.internal.refs.FindReferencesIndexer.getIndexItems(FindReferencesIndexer.java:128)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.o00000(IndexerServiceImpl.java:743)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.initialiseIndexer(IndexerServiceImpl.java:488)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:442)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.tibco.xpd.resources 4 0 2018-05-03 22:01:03.677
+!MESSAGE Indexer global.references.index failed for file '/CICDDemo/Processes/cicddemo/Customer.bwp'
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.amf.tools.composite.resources.internal.refs.FindReferencesIndexer.getIndexItems(FindReferencesIndexer.java:128)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.o00000(IndexerServiceImpl.java:743)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
+	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.initialiseIndexer(IndexerServiceImpl.java:488)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:442)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-05-03 22:01:03.678
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.o00000(WorkingCopyMonitor.java:514)
+	at com.tibco.xpd.validation.internal.engine.WorkingCopyMonitor.workingCopyCreated(WorkingCopyMonitor.java:451)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyCreationListenersManager.fireWorkingCopyCreated(WorkingCopyCreationListenersManager.java:79)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.Ó00000(XpdProjectResourceFactoryImpl.java:279)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.access$0(XpdProjectResourceFactoryImpl.java:237)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl$2.visit(XpdProjectResourceFactoryImpl.java:485)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:126)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:124)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:108)
+	at com.tibco.xpd.resources.internal.wc.XpdProjectResourceFactoryImpl.addAllWorkingCopies(XpdProjectResourceFactoryImpl.java:481)
+	at com.tibco.xpd.resources.internal.wc.WorkingCopyFactoriesManager.getXpdProjectResourceFactory(WorkingCopyFactoriesManager.java:130)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getXpdProjectResourceFactory(XpdResourcesPlugin.java:179)
+	at com.tibco.xpd.resources.XpdResourcesPlugin.getWorkingCopy(XpdResourcesPlugin.java:200)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener$_o.visit(ResourceFactoriesChangeListener.java:165)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at com.tibco.xpd.resources.internal.wc.ResourceFactoriesChangeListener.resourceChanged(ResourceFactoriesChangeListener.java:238)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$VMChanges.doit(LaunchingPlugin.java:284)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$JREUpdateJob.run(LaunchingPlugin.java:381)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2018-05-03 22:01:04.553 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication execute C:/GITWorkspace/CICDDemo/output/ESB/Deployment/DEV/6.X/CICDDemo/1.0.0/Deployment/CICDDemo_1.0.0_2.bat
+Command-line arguments:  -application com.tibco.bw.core.design.project.BwDesignApplication -ws win32 -data C:/GITWorkspace/CICDDemo/output/workspace execute C:/GITWorkspace/CICDDemo/output/ESB/Deployment/DEV/6.X/CICDDemo/1.0.0/Deployment/CICDDemo_1.0.0_2.bat
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-05-03 22:01:05.792
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-05-03 22:01:05.793
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.169
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.175
+!MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.177
+!MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.178
+!MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.180
+!MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.181
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.181
+!MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.195
+!MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.195
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.196
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-03 22:01:06.197
+!MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-05-03 22:01:06.284
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:13.600
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:13.600
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:13.601
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:13.601
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
+
+!ENTRY org.eclipse.emf.validation 2 70 2018-05-03 22:01:13.869
+!MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
+
+!ENTRY org.eclipse.bpel.validator 1 0 2018-05-03 22:01:14.702
+!MESSAGE Validator Startup 22ms
+
+!ENTRY com.tibco.zion.common 1 0 2018-05-03 22:01:15.602
+!MESSAGE The project 'CICDDemo' will be exported.
